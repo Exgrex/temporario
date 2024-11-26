@@ -1,0 +1,177 @@
+header{
+    width: 100%;
+    /*height: 160px;*/
+
+    display: flex;
+    flex-direction: row;  /*row coloca os divs um á direita do outro, em linha, column coloca um abaixo do outro*/
+}
+nav{
+    width: 100%;
+    height: 30px;
+    background-color: #ffbe69;
+    display: flex;
+    align-items: center;
+}
+main{
+    width: 80%;
+
+
+    display:flex;
+    align-items: center; /*centraliza na horizontal*/
+    flex-direction: column; /*coloca o conteudo um abaixo do outro, em coluna*/
+    justify-content: center; /*centraliza na vertical*/
+    line-height: 3; /*altura das linhas dentro do main*/
+}
+
+iframe.quadro{
+    width: 100%;
+    height: 800px;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: #ffbe69;
+}
+*{
+    margin: 0 auto;
+}
+
+
+
+div.logo{
+    flex: 20%; /* usa 20% da largura do header*/
+
+    margin: 5px;
+    display: flex;
+    align-items: center;
+}
+div.texto{
+    flex: 40%; /* usa 40% da largura do header*/
+    background-color: white;
+    margin: 5px;
+    display: flex; /*serve para que o align items funcione*/
+    align-items: center; /*centraliza o que esta nessa caixa div*/
+}
+
+div.login{
+    flex: 40%; /* usa 40% da largura do header*/
+    /*background color removida*/
+    margin: 5px;
+}
+
+div.saudacao{
+    flex: 40%;
+    display: flex;
+    align-items: center;/* alinha na vertical */
+    justify-content: center;/* alinha na horizontal */
+    font-family: arial;
+    font-size: 18px;
+    color: black;
+}
+
+div.logo img{
+    width: 80%;
+    height: 80%;
+}
+
+div.texto h1{
+    font-family: calibri;
+    font-size: 35px;
+    color: black;
+    font-weight: bold;
+}
+main h1{
+    color: black;
+    font-family: tahoma;
+    font-size: 60px;
+
+}
+main p button{
+    background-color: black;
+    color: white;
+    font-size:30px;
+    font-family: arial;
+    border-radius: 20px; /*arredonda os cantos*/
+    margin-bottom: 50px; /*espaço abaixo do botão*/
+    padding: 15px 50px; /*20 acima e baixo e 80 a esquerda e direita*/
+    cursor: pointer; /*mostra a maozinha sobre o botão*/
+    box-shadow: 5px 7px 15px 7px rgba(75,139,242,0.5);
+
+}
+form{
+    /*background color removida*/
+    text-align: right;/*alinha a direita*/
+    line-height: 2;  /*dobrando espaço (altura) das linha*/
+    padding-right: 20px; /*margem interna a direita*/ /*margin é espaço para fora da caixa, padding é espaço para dentro da caixa*/
+    padding-top: 10px; /*margem interna para cima*/
+}
+
+form label{
+    font-family: calibri;
+    font-size: 18px;
+    color: black;
+}
+form input{
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    font-family: arial;
+    height: 20px;
+    border:solid black 1px;
+    border-radius: 20px;
+}
+input.botao{
+    width: 220px;
+    height: 40px;
+    padding:10px;
+    border-radius: 15px; /*arredonda os cantos*/
+    background-color: white;
+    color: black;
+    border: solid gray 1px;
+    font-weight: bold; /*negrito*/
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+input.botao:hover{
+    transition: 2s ease;
+    background-color: black;
+    color: white;
+
+
+
+}
+
+nav a{
+    color:white;
+    font-weight: bold;
+    text-decoration: none; /*retira o sublinhado dos itens*/
+    font-family:arial;
+    font-size: 16px;
+    padding: 10px 30px; /*5px cima/baixo - 30px esqerda/direita*/
+}
+nav a:hover{
+    color:black;
+    background-color: white;
+
+
+}
+iframe{
+    border: 0px;
+}
+
+p.cad{
+    text-align: right;
+    margin-right: 20px; /*direita*/
+    margin-bottom: 10px; /*abaixo*/
+}
+
+
+
+
+
+
+
+

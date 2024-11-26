@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="ISO-8859-1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form method="post" action="salvar_produtos.jsp">
+            <p>
+                <label for="i">ID</label>
+                <input id="i" type="text" maxlength="50" size="50" name="id">
+            </p>
+            <p>
+                <label for="n">Nome</label>
+                <input id="n" type="text" name="nome" maxlength="50" size="50">
+            </p>
+            <p>
+                <label for="a">Altura</label>
+                <input id="a" type="number" name="altura" min="0" step="0.01">
+            </p>
+            <p>
+                <label for="c">Clube</label>
+                <input id="c" type="text" name="clube" size="50" maxlength="50">
+            </p>
+            <p>
+                <input type="submit" value="Salvar">
+            </p>
+        </form>
+    </body>
+</html>
